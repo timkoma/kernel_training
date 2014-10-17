@@ -1,0 +1,14 @@
+menuconfig GL_TRAINING
+	bool "GL Kernel drivers training"
+	help
+	  You can build and test GL training kernel drivers
+
+if GL_TRAINING
+
+config GL_TRAINING_HELLOWORLD
+	tristate "Build hello world example"
+	help
+	  This build hello world example.
+
+endif # GL_TRAINING
+
