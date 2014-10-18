@@ -3,5 +3,5 @@
 #
 #
 
-obj-$(CONFIG_GL_TRAINING)	+= helloworld/
+obj-$(CONFIG_GL_TRAINING)	+= helloworld/  hellodebugfs/
 

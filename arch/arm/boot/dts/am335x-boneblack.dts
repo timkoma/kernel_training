@@ -110,4 +110,8 @@
 	helloworld {
         	compatible= "gl,helloworld";
 	};
+	hello-debugfs {
+        	compatible= "gl,hello-debugfs";
+	};
+	
 };

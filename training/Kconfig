@@ -6,9 +6,14 @@ menuconfig GL_TRAINING
 if GL_TRAINING
 
 config GL_TRAINING_HELLOWORLD
-	tristate "Build hello world example"
+	tristate "Build hello world example(Lesson 2)"
 	help
-	  This build hello world example.
+	  This build hello world example from Lesson 2.
+
+config GL_TRAINING_HELLO_DEBUGFS
+	tristate "Build hello debugfs example(Lesson 3)"
+	help
+	  This build hello debugfs example from Lesson 3.
 
 endif # GL_TRAINING
 

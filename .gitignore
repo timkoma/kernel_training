@@ -3,3 +3,6 @@
 modules.builtin
 modules.order
 *.cmd
+.cproject
+.project
+.settings
