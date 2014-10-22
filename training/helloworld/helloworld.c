@@ -39,5 +39,5 @@ static struct platform_driver helloworld_driver = {
        },
 };
 
-module_platform_driver(hellowolrd_driver);
+module_platform_driver(helloworld_driver);
 
